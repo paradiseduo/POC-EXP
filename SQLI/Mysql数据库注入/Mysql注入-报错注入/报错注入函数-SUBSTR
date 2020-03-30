@@ -1,1 +1,0 @@
-And (select ASCII(SUBSTR(user(),1,1)))>100
