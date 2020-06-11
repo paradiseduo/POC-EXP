@@ -20,4 +20,4 @@ def audit(arg):
 
 if __name__ == '__main__':
         from dummy import *
-        audit(assign('discuz','url')[1])
+        audit(assign('discuz','url'))
